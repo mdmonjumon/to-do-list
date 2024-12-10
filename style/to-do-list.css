@@ -2,7 +2,7 @@ body {
     background-color: #1F1762;
 }
 .to-do-section {
-    max-width: 500px;
+    max-width: fit-content;
     min-height: 50vh;
     margin: 0 auto;
     background-color: white;
@@ -80,7 +80,18 @@ body {
 .list-items li span{
     position: absolute;
     right: 50px;
-    top: 8px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-items li span:hover{
+    background: #edeef0;
 }
 
 .list-items li.checked{
