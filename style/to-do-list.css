@@ -72,10 +72,9 @@ body {
     border-radius: 50%;
     left: -30px;
     top: 8px;
-    background-image: url('/assets/radio.png');
+    background-image: url('../assets/radio.png');
     background-position: center;
     background-size: cover;
-    
 }
 
 .list-items li span{
