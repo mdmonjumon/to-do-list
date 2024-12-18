@@ -99,7 +99,7 @@ body {
     text-decoration: line-through;
 }
 .list-items li.checked::before{
-    background-image: url('../assets/checklist.png');
+    background-image: url('../assets/checked.png');
     background-position: center;
     background-size: cover;
 }
